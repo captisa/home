@@ -31,7 +31,7 @@ module.exports = {
           items: [
             {
               label: "QuestDB Swag",
-              to: "/community/"
+              to: "/blog/"
             },
             {
               label: "GitHub",
