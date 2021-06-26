@@ -6,8 +6,8 @@ module.exports = {
   title: "Online form builder with database storage",
   tagline:
     "Create free online forms with workflows, conditional logic, duplicate detection rules, multi-level select, lookup, repeating panels, tabs, accordions. Create views and filters use them to analyze your data using charts or pivot grids, and then present them in dashboard.",
-  url: "https://captisa.com",
-  baseUrl: "/",
+  url: "https://captisa.github.io",
+  baseUrl: "/home/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
