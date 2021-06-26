@@ -11,8 +11,8 @@ module.exports = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "Captisa", // Usually your GitHub org/user name.
-  projectName: "Web form builder", // Usually your repo name.
+  organizationName: "Captisa-Forms", // Usually your GitHub org/user name.
+  projectName: "home", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "",
@@ -24,7 +24,33 @@ module.exports = {
       items: [
         { to: "/blog", label: "Home", position: "right" },
         { to: "/blog", label: "Portal", position: "right" },
-        { to: "/blog", label: "Features", position: "right" },
+        {
+          to: "/blog",
+          label: "Features",
+          position: "right",
+          items: [
+            {
+              label: "QuestDB Swag",
+              to: "/community/"
+            },
+            {
+              label: "GitHub",
+              to: "/blog"
+            },
+            {
+              label: "Slack",
+              to: "/blog"
+            },
+            {
+              label: "Stack Overflow",
+              to: "/blog"
+            },
+            {
+              label: "Twitter",
+              to: "/blog"
+            }
+          ]
+        },
         {
           type: "doc",
           docId: "intro",
@@ -76,7 +102,7 @@ module.exports = {
           ]
         }
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`
+      copyright: `Copyright © ${new Date().getFullYear()} Captisa Forms`
     },
     prism: {
       theme: lightCodeTheme,
