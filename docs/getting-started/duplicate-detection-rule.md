@@ -2,9 +2,13 @@
 sidebar_position: 6
 ---
 
-# Duplicate Detection Rule!
+# Duplicate Detection Rule
 
-You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
+To maintain the integrity of your data, it’s a good idea to have rules in place to reduce duplicate records in the system.
+
+## Create a duplicate detection rule
+
+You have just learned the **basics of Docusaurus** and made some changes to the \*\*initial template\*\*.
 
 Docusaurus has **much more to offer**!
 
