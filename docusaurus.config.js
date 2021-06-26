@@ -11,8 +11,8 @@ module.exports = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "captisa", // Usually your GitHub org/user name.
-  projectName: "home", // Usually your repo name.
+  organizationName: "captisa-forms", // Usually your GitHub org/user name.
+  projectName: "home-1", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "",
