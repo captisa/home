@@ -8,9 +8,7 @@ Let's discover **Docusaurus in less than 5 minutes**.
 
 ## Getting Started
 
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[new.docusaurus.io](https://new.docusaurus.io)**.
+Use pre-made form templates or create a form from scratch. You can create forms to help your organization in a short period of time.
 
 ## Generate a new site
 
