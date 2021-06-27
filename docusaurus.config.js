@@ -7,12 +7,12 @@ module.exports = {
   tagline:
     "Create free online forms with workflows, conditional logic, duplicate detection rules, multi-level select, lookup, repeating panels, tabs, accordions. Create views and filters use them to analyze your data using charts or pivot grids, and then present them in dashboard.",
   url: "https://captisa.github.io",
-  baseUrl: "/home/",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "Captisa-Forms", // Usually your GitHub org/user name.
-  projectName: "home", // Usually your repo name.
+  organizationName: "captisa-forms", // Usually your GitHub org/user name.
+  projectName: "home-1", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "",
