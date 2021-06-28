@@ -1298,7 +1298,7 @@
     tslib "^2.2.0"
     webpack "^5.40.0"
 
-"@docusaurus/plugin-content-docs@2.0.0-beta.2":
+"@docusaurus/plugin-content-docs@2.0.0-beta.2", "@docusaurus/plugin-content-docs@^2.0.0-beta.2":
   version "2.0.0-beta.2"
   resolved "https://registry.yarnpkg.com/@docusaurus/plugin-content-docs/-/plugin-content-docs-2.0.0-beta.2.tgz#de14ca5e8428ea937478ce02811384d4e6a61920"
   integrity sha512-lx7jC+DqMMio0Hhq3DNNGZKNUAD5n5Sc0T1m5x67iXoRJPwOEmKa+8fEhGV4tmXpTy7EmULpAnS+OxlJDOPhxg==

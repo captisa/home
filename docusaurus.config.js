@@ -8,11 +8,11 @@ module.exports = {
     "Create free online forms with workflows, conditional logic, duplicate detection rules, multi-level select, lookup, repeating panels, tabs, accordions. Create views and filters use them to analyze your data using charts or pivot grids, and then present them in dashboard.",
   url: "https://captisa.github.io",
   baseUrl: "/",
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "captisa-forms", // Usually your GitHub org/user name.
-  projectName: "home-1", // Usually your repo name.
+  organizationName: "captisa", // Usually your GitHub org/user name.
+  projectName: "home", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "",
@@ -115,19 +115,28 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          editUrl: "https://github.com/facebook/docusaurus/edit/master/website/"
+          
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/blog/"
+          
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css")
         }
       }
     ]
-  ]
+  ],
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'examples',
+        path: 'examples',
+        routeBasePath: 'examples',
+        sidebarPath: require.resolve("./examplesidebars.js"),
+      },
+    ],
+  ],
 };
